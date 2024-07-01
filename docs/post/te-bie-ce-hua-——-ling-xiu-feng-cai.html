@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/141149307?v=4"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -77,8 +77,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>目睹这一切的历史老师站在走廊一旁，看到这一幕，忍不住笑了起来，心中满是赞赏。老师眼中，陈一瀚的奔跑并不仅仅是为了不迟到，更是他对学习的热爱和积极态度的生动写照。历史老师感慨道：“他跑得像只蛤蟆！很有学习的积极性。”</p>
 <p>全党应向陈一瀚同志学习，培养乐于学习的品质。陈一瀚的每一个动作，每一次奔跑，都在告诉我们，学习的热情和积极态度，才是通向成功的关键。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://pisisk.github.io/whatapityparty.github.io"> 真一瀚党宣传部 </a>
 <p>
@@ -133,6 +135,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
