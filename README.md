@@ -1,4 +1,4 @@
-# 真一瀚党宣传部 :link: https://pisisk.github.io/whatapityparty.github.io 
+# 真一瀚党宣传部 :link: pity.pisisk.us.kg
 ### :page_facing_up: [23](https://pisisk.github.io/whatapityparty.github.io/tag.html) 
 ### :speech_balloon: 2 
 ### :hibiscus: 15750 
